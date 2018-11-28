@@ -1,0 +1,22 @@
+{
+  "name": "neil-loadbalancer",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "nodemon servers/server.js"
+  },
+  "author": "Neil Vodoor",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "compression": "^1.7.3",
+    "express": "^4.16.4",
+    "http-proxy-middleware": "^0.19.0",
+    "morgan": "^1.9.1",
+    "newrelic": "^4.11.0"
+  },
+  "devDependencies": {
+    "concurrently": "^4.0.1",
+    "nodemon": "^1.18.6"
+  }
+}
